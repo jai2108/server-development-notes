@@ -1,0 +1,32 @@
+tablename - products
+product_id  product_name   price    stock_quantity
+101	 	        Laptop      55000	      10
+102		        Mouse       1200	      50
+
+ 
+table name - orders
+order_id	product_id	customer_name	quantity_ordered
+1	         101	         rohit         	    1
+2	         101	         rohan	            2
+
+Professional Task: The "Sales Report" (JOINS)
+In a real business, you need to know how much money is coming in. You have the price in one table and the quantity in another.
+
+The Task: "Write a query to show the Customer Name, the Product they bought, and the Total Cost (Price × Quantity)."
+
+
+Professional Task: Inventory Management (UPDATES)
+If a customer buys a product, you must reduce the stock in your database so you don't sell items you don't have.
+
+The Task: "A customer just bought 2 Laptops. Update the products table to reduce the stock for Laptop (ID 101)."
+
+
+Professional Task: Business Analytics (GROUP BY)
+The boss wants to know which product is the "Best Seller."
+
+The Task: "Find out which product has been sold the most (total quantity)."
+
+Professional Task: Data Cleaning (DELETE)
+If an order is cancelled, you need to remove it from the system safely.
+
+The Task: "Cancel Order #2 but keep the product info safe."
